@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Benchee Report</title>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="assets/stylesheets/benchee.css">
+  <link rel="stylesheet" type="text/css" href="assets/fontello/css/fontello.css">
+</head>
+
+  <body>
+
+    <div class="header">
+  <h1>benchee report</h1>
+  
+
+  <span class="version-note">
+  <a href="javascript:toggleSystemDataInfo();" title="Click to toggle system info">System info</a>
+</span>
+
+</div>
+
+
+    <article id="system-info" class="benchee-systeminfo" >
+  <h3>System info</h3>
+  <ul class="benchee-systeminfo-list">
+    <li>Elixir: 1.7.2</li>
+    <li>Erlang: 21.0.4</li>
+    <li>Operating system: macOS</li>
+    <li>Available memory: 16 GB</li>
+    <li>CPU Information: Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz</li>
+    <li>Number of Available Cores: 8</li>
+  </ul>
+</article>
+
+    <article>
+      <h2>
+        Comparison
+        <a href="https://github.com/PragTob/benchee_html/wiki/Chart-Types#comparison">
+          <i
+          class="benchee-help-icon icon-question-circle-o"
+          title="Comparisons of the different benchmarking jobs.
+For Iterations per Second higher is better, the black whiskers denote standard deviation. otherwise it is runtime so lower is better.
+The Box Plot shows a distribution of run times with the median and outliers."
+          ></i>
+        </a>
+      </h2>
+      <section>
+        <h3>Data Table</h3>
+<table>
+  <thead>
+    <tr>
+      <th class="text-left">Name</th>
+      <th>Iterations per Second</th>
+      <th>Average</th>
+      <th>Deviation</th>
+      <th>median</th>
+      <th>minimum</th>
+      <th>maximum</th>
+      <th>Sample size</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+      <tr>
+        
+          <td class="text-left"><a href="headers_100_cables_(headers):___1_connection_1_stream.html">Cables (Headers):   1 connection 1 stream</a></td>
+        
+        <td>0.176</td>
+        <td>5.67 s</td>
+        <td>±1.04%</td>
+        <td>5.67 s</td>
+        <td>5.61 s</td>
+        <td>5.73 s</td>
+        <td>2</td>
+      </tr>
+    
+      <tr>
+        
+          <td class="text-left"><a href="headers_100_cables_(headers):___1_connection_50_streams.html">Cables (Headers):   1 connection 50 streams</a></td>
+        
+        <td>0.25</td>
+        <td>4.00 s</td>
+        <td>±2.34%</td>
+        <td>3.96 s</td>
+        <td>3.91 s</td>
+        <td>4.13 s</td>
+        <td>3</td>
+      </tr>
+    
+      <tr>
+        
+          <td class="text-left"><a href="headers_100_cables_(headers):___2_connections_25_streams.html">Cables (Headers):   2 connections 25 streams</a></td>
+        
+        <td>0.41</td>
+        <td>2.44 s</td>
+        <td>±2.15%</td>
+        <td>2.47 s</td>
+        <td>2.34 s</td>
+        <td>2.49 s</td>
+        <td>5</td>
+      </tr>
+    
+      <tr>
+        
+          <td class="text-left"><a href="headers_100_cables_(headers):___5_connections_10_streams.html">Cables (Headers):   5 connections 10 streams</a></td>
+        
+        <td>0.63</td>
+        <td>1.59 s</td>
+        <td>±3.66%</td>
+        <td>1.57 s</td>
+        <td>1.54 s</td>
+        <td>1.71 s</td>
+        <td>7</td>
+      </tr>
+    
+      <tr>
+        
+          <td class="text-left"><a href="headers_100_cables_(headers):__10_connections_100_streams.html">Cables (Headers):  10 connections 100 streams</a></td>
+        
+        <td>0.60</td>
+        <td>1.67 s</td>
+        <td>±9.22%</td>
+        <td>1.62 s</td>
+        <td>1.52 s</td>
+        <td>1.94 s</td>
+        <td>6</td>
+      </tr>
+    
+      <tr>
+        
+          <td class="text-left"><a href="headers_100_cables_(headers):__10_connections_5_streams.html">Cables (Headers):  10 connections 5 streams</a></td>
+        
+        <td>0.64</td>
+        <td>1.56 s</td>
+        <td>±2.67%</td>
+        <td>1.57 s</td>
+        <td>1.50 s</td>
+        <td>1.63 s</td>
+        <td>7</td>
+      </tr>
+    
+      <tr>
+        
+          <td class="text-left"><a href="headers_100_cables_(headers):__50_connections_1_streams.html">Cables (Headers):  50 connections 1 streams</a></td>
+        
+        <td>0.59</td>
+        <td>1.70 s</td>
+        <td>±3.11%</td>
+        <td>1.69 s</td>
+        <td>1.62 s</td>
+        <td>1.80 s</td>
+        <td>6</td>
+      </tr>
+    
+      <tr>
+        
+          <td class="text-left"><a href="headers_100_cables_(headers):_100_connections_1_stream.html">Cables (Headers): 100 connections 1 stream</a></td>
+        
+        <td>0.50</td>
+        <td>2.01 s</td>
+        <td>±4.48%</td>
+        <td>1.98 s</td>
+        <td>1.92 s</td>
+        <td>2.18 s</td>
+        <td>6</td>
+      </tr>
+    
+      <tr>
+        
+          <td class="text-left"><a href="headers_100_cables_(headers):_100_connections_100_streams.html">Cables (Headers): 100 connections 100 streams</a></td>
+        
+        <td>0.56</td>
+        <td>1.77 s</td>
+        <td>±4.80%</td>
+        <td>1.79 s</td>
+        <td>1.63 s</td>
+        <td>1.91 s</td>
+        <td>6</td>
+      </tr>
+    
+      <tr>
+        
+          <td class="text-left"><a href="headers_100_hackney_(headers):___1_connection.html">Hackney (Headers):   1 connection</a></td>
+        
+        <td>0.118</td>
+        <td>8.47 s</td>
+        <td>±1.80%</td>
+        <td>8.47 s</td>
+        <td>8.32 s</td>
+        <td>8.62 s</td>
+        <td>2</td>
+      </tr>
+    
+      <tr>
+        
+          <td class="text-left"><a href="headers_100_hackney_(headers):__50_connection.html">Hackney (Headers):  50 connection</a></td>
+        
+        <td>0.63</td>
+        <td>1.58 s</td>
+        <td>±2.32%</td>
+        <td>1.57 s</td>
+        <td>1.54 s</td>
+        <td>1.66 s</td>
+        <td>7</td>
+      </tr>
+    
+      <tr>
+        
+          <td class="text-left"><a href="headers_100_hackney_(headers):_100_connection.html">Hackney (Headers): 100 connection</a></td>
+        
+        <td>0.62</td>
+        <td>1.62 s</td>
+        <td>±3.06%</td>
+        <td>1.62 s</td>
+        <td>1.55 s</td>
+        <td>1.68 s</td>
+        <td>7</td>
+      </tr>
+    
+  </tbody>
+</table>
+
+      </section>
+
+      <section class="benchee-plot-container">
+        <div id="ips-comparison" class=" plot"></div>
+      </section>
+
+      <section class="benchee-plot-container">
+        <div id="box-plot" class=" plot"></div>
+      </section>
+    </article>
+
+    <script src="assets/javascripts/plotly-1.30.1.min.js"></script>
+<script src="assets/javascripts/benchee.js"></script>
+
+
+    <script>
+      var suite      = {"statistics":{"Hackney (Headers): 100 connection":{"std_dev_ratio":0.030593892248291673,"std_dev_ips":0.018859791003602105,"std_dev":49628.664640096686,"sample_size":7,"percentiles":{"99":1679792.0,"50":1618469.0},"mode":null,"minimum":1554608.0,"median":1618469.0,"maximum":1679792.0,"ips":0.6164560838006878,"average":1622175.5714285714},"Hackney (Headers):  50 connection":{"std_dev_ratio":0.023249063095345794,"std_dev_ips":0.014686598078384972,"std_dev":36803.54918998427,"sample_size":7,"percentiles":{"99":1657664.0,"50":1572924.0},"mode":null,"minimum":1536449.0,"median":1572924.0,"maximum":1657664.0,"ips":0.6317070936645643,"average":1583012.142857143},"Hackney (Headers):   1 connection":{"std_dev_ratio":0.01801005815078771,"std_dev_ips":0.0021267978558720288,"std_dev":152512.0,"sample_size":2,"percentiles":{"99":8620669.0,"50":8468157.0},"mode":null,"minimum":8315645.0,"median":8468157.0,"maximum":8620669.0,"ips":0.11808944968781282,"average":8468157.0},"Cables (Headers): 100 connections 100 streams":{"std_dev_ratio":0.04802430196131598,"std_dev_ips":0.02707602678906128,"std_dev":85179.91198780379,"sample_size":6,"percentiles":{"99":1905023.0,"50":1787393.5},"mode":null,"minimum":1630980.0,"median":1787393.5,"maximum":1905023.0,"ips":0.5637984454385464,"average":1773683.5},"Cables (Headers): 100 connections 1 stream":{"std_dev_ratio":0.04479979621790326,"std_dev_ips":0.02232026313014712,"std_dev":89919.26884835208,"sample_size":6,"percentiles":{"99":2181741.0,"50":1982924.0},"mode":null,"minimum":1916498.0,"median":1982924.0,"maximum":2181741.0,"ips":0.49822242542316103,"average":2007135.6666666667},"Cables (Headers):  50 connections 1 streams":{"std_dev_ratio":0.03107854567361832,"std_dev_ips":0.018318191306518107,"std_dev":52727.69483761725,"sample_size":6,"percentiles":{"99":1797849.0,"50":1691439.5},"mode":null,"minimum":1623460.0,"median":1691439.5,"maximum":1797849.0,"ips":0.589415975216237,"average":1696594.6666666667},"Cables (Headers):  10 connections 5 streams":{"std_dev_ratio":0.026688780700603577,"std_dev_ips":0.01708561221142763,"std_dev":41689.52253338031,"sample_size":7,"percentiles":{"99":1627567.0,"50":1568124.0},"mode":null,"minimum":1501216.0,"median":1568124.0,"maximum":1627567.0,"ips":0.6401795721990863,"average":1562061.7142857143},"Cables (Headers):  10 connections 100 streams":{"std_dev_ratio":0.09223050307105612,"std_dev_ips":0.055318166030198686,"std_dev":153773.45829028997,"sample_size":6,"percentiles":{"99":1938108.0,"50":1618679.0},"mode":null,"minimum":1518971.0,"median":1618679.0,"maximum":1938108.0,"ips":0.5997816794686734,"average":1667273.3333333333},"Cables (Headers):   5 connections 10 streams":{"std_dev_ratio":0.03656284498535407,"std_dev_ips":0.02297238931305842,"std_dev":58193.40840889883,"sample_size":7,"percentiles":{"99":1707357.0,"50":1565998.0},"mode":null,"minimum":1536807.0,"median":1565998.0,"maximum":1707357.0,"ips":0.6282987366617788,"average":1591599.5714285714},"Cables (Headers):   2 connections 25 streams":{"std_dev_ratio":0.02146304449273549,"std_dev_ips":0.008779876078434114,"std_dev":52467.970479522075,"sample_size":5,"percentiles":{"99":2492372.0,"50":2465218.0},"mode":null,"minimum":2.3426e6,"median":2465218.0,"maximum":2492372.0,"ips":0.40906946269462396,"average":2444572.6},"Cables (Headers):   1 connection 50 streams":{"std_dev_ratio":0.023436378108485107,"std_dev_ips":0.005857573510533042,"std_dev":93769.8550186691,"sample_size":3,"percentiles":{"99":4130204.0,"50":3962464.0},"mode":null,"minimum":3910448.0,"median":3962464.0,"maximum":4130204.0,"ips":0.2499351001856518,"average":4001038.6666666665},"Cables (Headers):   1 connection 1 stream":{"std_dev_ratio":0.010414830008067994,"std_dev_ips":0.0018372533871448896,"std_dev":59038.5,"sample_size":2,"percentiles":{"99":5727734.0,"50":5668695.5},"mode":null,"minimum":5609657.0,"median":5668695.5,"maximum":5727734.0,"ips":0.1764074291871913,"average":5668695.5}},"sort_order":["Cables (Headers):  10 connections 5 streams","Hackney (Headers):  50 connection","Cables (Headers):   5 connections 10 streams","Hackney (Headers): 100 connection","Cables (Headers):  10 connections 100 streams","Cables (Headers):  50 connections 1 streams","Cables (Headers): 100 connections 100 streams","Cables (Headers): 100 connections 1 stream","Cables (Headers):   2 connections 25 streams","Cables (Headers):   1 connection 50 streams","Cables (Headers):   1 connection 1 stream","Hackney (Headers):   1 connection"],"run_times":{"Hackney (Headers): 100 connection":[1678225.0,1557756.0,1663258.0,1679792.0,1603121.0,1554608.0,1618469.0],"Hackney (Headers):  50 connection":[1558364.0,1536449.0,1572924.0,1587283.0,1561727.0,1606674.0,1657664.0],"Hackney (Headers):   1 connection":[8315645.0,8620669.0],"Cables (Headers): 100 connections 100 streams":[1713749.0,1790996.0,1905023.0,1817562.0,1783791.0,1630980.0],"Cables (Headers): 100 connections 1 stream":[1916498.0,1983526.0,1926095.0,1982322.0,2052632.0,2181741.0],"Cables (Headers):  50 connections 1 streams":[1797849.0,1707971.0,1686656.0,1667409.0,1696223.0,1623460.0],"Cables (Headers):  10 connections 5 streams":[1568124.0,1569987.0,1606463.0,1627567.0,1501216.0,1.5381e6,1522975.0],"Cables (Headers):  10 connections 100 streams":[1566028.0,1518971.0,1520541.0,1671330.0,1788662.0,1938108.0],"Cables (Headers):   5 connections 10 streams":[1707357.0,1647715.0,1559310.0,1536807.0,1580775.0,1565998.0,1543235.0],"Cables (Headers):   2 connections 25 streams":[2468154.0,2492372.0,2.3426e6,2465218.0,2454519.0],"Cables (Headers):   1 connection 50 streams":[3962464.0,3910448.0,4130204.0],"Cables (Headers):   1 connection 1 stream":[5609657.0,5727734.0]}};
+      var runTimes   = suite.run_times;
+      var statistics = suite.statistics;
+      var sortOrder  = suite.sort_order;
+
+      var inputHeadline = ""
+
+      drawIpsComparisonChart(statistics, sortOrder, inputHeadline);
+      drawComparisonBoxPlot(runTimes, sortOrder, inputHeadline);
+    </script>
+  </body>
+</html>
