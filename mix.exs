@@ -22,8 +22,7 @@ defmodule CablesBenchmark.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      # {:cables, "~> 0.1.1"},
-      {:cables, git: "https://github.com/hansonkd/cables.git", branch: "master"},
+      {:cables, "~> 0.2.0"},
       {:httpoison, "~> 1.4"},
 
       {:plug_cowboy, "~> 2.0"},

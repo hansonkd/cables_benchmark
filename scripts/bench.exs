@@ -1,14 +1,14 @@
 num_requests = 10_000
 
-{:ok, pool_1_50} = Cables.new_pool("https://localhost:4001", :http2_1_50)
-{:ok, pool_50_1} = Cables.new_pool("https://localhost:4001", :http2_50_1)
-{:ok, pool_5_10} = Cables.new_pool("https://localhost:4001", :http2_5_10)
-{:ok, pool_10_5} = Cables.new_pool("https://localhost:4001", :http2_10_5)
-{:ok, pool_2_25} = Cables.new_pool("https://localhost:4001", :http2_2_25)
-{:ok, pool_10_100} = Cables.new_pool("https://localhost:4001", :http2_10_100)
-{:ok, pool_100_100} = Cables.new_pool("https://localhost:4001", :http2_100_100)
-{:ok, pool_100_1} = Cables.new_pool("https://localhost:4001", :http2_100_1)
-{:ok, pool_1_1} = Cables.new_pool("https://localhost:4001", :http2_1_1)
+{:ok, pool_1_50} = Cables.new("https://localhost:4001", :http2_1_50)
+{:ok, pool_50_1} = Cables.new("https://localhost:4001", :http2_50_1)
+{:ok, pool_5_10} = Cables.new("https://localhost:4001", :http2_5_10)
+{:ok, pool_10_5} = Cables.new("https://localhost:4001", :http2_10_5)
+{:ok, pool_2_25} = Cables.new("https://localhost:4001", :http2_2_25)
+{:ok, pool_10_100} = Cables.new("https://localhost:4001", :http2_10_100)
+{:ok, pool_100_100} = Cables.new("https://localhost:4001", :http2_100_100)
+{:ok, pool_100_1} = Cables.new("https://localhost:4001", :http2_100_1)
+{:ok, pool_1_1} = Cables.new("https://localhost:4001", :http2_1_1)
 
 cables_bench_with_profile = fn pool, size ->
     fn ->

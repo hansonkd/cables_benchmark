@@ -13,33 +13,33 @@ mix run scripts/bench.exs
 # Small Responses (15 bytes)
 
 ```
-Name                                          ips        average  deviation         median
-Cables:  10 connections 100 streams          0.89         1.13 s     ±1.44%         1.12 s
-Cables:  10 connections 5 streams            0.88         1.13 s     ±1.27%         1.13 s
-Cables:   5 connections 10 streams           0.87         1.15 s     ±2.38%         1.15 s
-Cables: 100 connections 100 streams          0.81         1.23 s     ±1.83%         1.23 s
-Cables:  50 connections 1 streams            0.75         1.34 s     ±2.04%         1.33 s
-Hackney:  50 connection                      0.69         1.45 s     ±1.87%         1.45 s
-Cables: 100 connections   1 stream           0.66         1.52 s     ±0.93%         1.52 s
-Hackney: 100 connection                      0.62         1.62 s    ±17.99%         1.51 s
-Cables:   2 connections 25 streams           0.53         1.89 s     ±1.75%         1.89 s
-Cables:   1 connection 50 streams            0.33         3.03 s     ±3.38%         3.00 s
-Cables:   1 connection 1 stream              0.22         4.53 s     ±2.88%         4.62 s
-Hackney:   1 connection                     0.128         7.81 s     ±0.57%         7.81 s
+Name                                          ips        average  deviation         median         99th %
+Cables:  10 connections 100 streams          1.04         0.96 s     ±1.61%         0.96 s         0.99 s
+Cables:  10 connections 5 streams            1.02         0.98 s     ±2.39%         0.98 s         1.02 s
+Cables:   5 connections 10 streams           0.99         1.01 s     ±2.36%         1.02 s         1.04 s
+Cables: 100 connections 100 streams          0.95         1.05 s     ±2.71%         1.04 s         1.09 s
+Cables:  50 connections 1 streams            0.86         1.17 s     ±3.01%         1.16 s         1.24 s
+Hackney:  50 connection                      0.80         1.25 s     ±2.26%         1.25 s         1.32 s
+Hackney: 100 connection                      0.79         1.26 s     ±2.29%         1.27 s         1.30 s
+Cables: 100 connections   1 stream           0.75         1.34 s     ±2.56%         1.33 s         1.39 s
+Cables:   2 connections 25 streams           0.62         1.62 s     ±2.45%         1.63 s         1.67 s
+Cables:   1 connection 50 streams            0.39         2.57 s     ±2.70%         2.54 s         2.68 s
+Cables:   1 connection 1 stream              0.26         3.91 s     ±1.07%         3.88 s         3.96 s
+Hackney:   1 connection                     0.185         5.40 s     ±1.96%         5.40 s         5.51 s
 
 Comparison:
-Cables:  10 connections 100 streams          0.89
-Cables:  10 connections 5 streams            0.88 - 1.00x slower
-Cables:   5 connections 10 streams           0.87 - 1.02x slower
-Cables: 100 connections 100 streams          0.81 - 1.09x slower
-Cables:  50 connections 1 streams            0.75 - 1.19x slower
-Hackney:  50 connection                      0.69 - 1.29x slower
-Cables: 100 connections   1 stream           0.66 - 1.35x slower
-Hackney: 100 connection                      0.62 - 1.44x slower
-Cables:   2 connections 25 streams           0.53 - 1.68x slower
-Cables:   1 connection 50 streams            0.33 - 2.70x slower
-Cables:   1 connection 1 stream              0.22 - 4.03x slower
-Hackney:   1 connection                     0.128 - 6.94x slower
+Cables:  10 connections 100 streams          1.04
+Cables:  10 connections 5 streams            1.02 - 1.01x slower
+Cables:   5 connections 10 streams           0.99 - 1.05x slower
+Cables: 100 connections 100 streams          0.95 - 1.09x slower
+Cables:  50 connections 1 streams            0.86 - 1.21x slower
+Hackney:  50 connection                      0.80 - 1.30x slower
+Hackney: 100 connection                      0.79 - 1.31x slower
+Cables: 100 connections   1 stream           0.75 - 1.39x slower
+Cables:   2 connections 25 streams           0.62 - 1.68x slower
+Cables:   1 connection 50 streams            0.39 - 2.67x slower
+Cables:   1 connection 1 stream              0.26 - 4.06x slower
+Hackney:   1 connection                     0.185 - 5.61x slower
 ```
 # Small Responses with Headers (15 bytes)
 

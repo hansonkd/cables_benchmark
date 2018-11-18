@@ -2,7 +2,7 @@
   "benchee": {:hex, :benchee, "0.10.0", "7227e83ab81e4753610125d251bbf78c99167fbe7f931a8cbfbc3eda8526259c", [:mix], [{:deep_merge, "~> 0.1", [hex: :deep_merge, repo: "hexpm", optional: false]}], "hexpm"},
   "benchee_html": {:hex, :benchee_html, "0.4.0", "9576ef6058e3292ea6bb670d11f84e70484808c355d484fd17c2a749d40bc23e", [:mix], [{:benchee, "~> 0.10", [hex: :benchee, repo: "hexpm", optional: false]}, {:benchee_json, "~> 0.4", [hex: :benchee_json, repo: "hexpm", optional: false]}], "hexpm"},
   "benchee_json": {:hex, :benchee_json, "0.4.0", "59d3277829bd1dca8373cdb20b916cb435c2647be235d09963fc0959db908c36", [:mix], [{:benchee, "~> 0.10", [hex: :benchee, repo: "hexpm", optional: false]}, {:poison, ">= 1.4.0", [hex: :poison, repo: "hexpm", optional: false]}], "hexpm"},
-  "cables": {:git, "https://github.com/hansonkd/cables.git", "f41b1833ffffd58eca0242bb95081172fad372cd", [branch: "master"]},
+  "cables": {:hex, :cables, "0.2.0", "e4f861fe26e90cced452f12e970bec0d314161db986d9ad7db10957e00026107", [:mix], [{:gun, "~> 1.3", [hex: :gun, repo: "hexpm", optional: false]}], "hexpm"},
   "certifi": {:hex, :certifi, "2.4.2", "75424ff0f3baaccfd34b1214184b6ef616d89e420b258bb0a5ea7d7bc628f7f0", [:rebar3], [{:parse_trans, "~>3.3", [hex: :parse_trans, repo: "hexpm", optional: false]}], "hexpm"},
   "cowboy": {:hex, :cowboy, "2.5.0", "4ef3ae066ee10fe01ea3272edc8f024347a0d3eb95f6fbb9aed556dacbfc1337", [:rebar3], [{:cowlib, "~> 2.6.0", [hex: :cowlib, repo: "hexpm", optional: false]}, {:ranch, "~> 1.6.2", [hex: :ranch, repo: "hexpm", optional: false]}], "hexpm"},
   "cowlib": {:hex, :cowlib, "2.6.0", "8aa629f81a0fc189f261dc98a42243fa842625feea3c7ec56c48f4ccdb55490f", [:rebar3], [], "hexpm"},
